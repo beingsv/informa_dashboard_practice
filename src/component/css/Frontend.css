@@ -1,0 +1,44 @@
+.frontend-panel{
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.frontend-panel .header{
+    display: flex;
+    background-color: rgb(200, 249, 233);
+    width: 100%;
+    align-items: center;
+    height: 40px;
+    border-radius: 10px;    
+}
+.frontend-panel .header svg{
+    margin-left: 20px;
+    color: rgb(99, 254, 202);
+}
+
+.frontend-panel .header p.frontend-heading{
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 8px;
+}
+
+.frontend-panel .header .tags{
+    display: flex;
+    margin-left: 8px;
+}
+
+.frontend-panel .header .tags p{
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 5px;
+    padding:  0 5px;
+    font-size: 15px;
+}
+
+.frontend-panel .cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    justify-content: space-between;
+}

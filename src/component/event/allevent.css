@@ -1,0 +1,44 @@
+.card {
+    width: fit-content;
+    height: auto;
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 30%;
+    padding-left: 20px;
+    padding-top: 0px;
+    margin-top: 10px;
+}
+
+.card h2 {
+    text-align: left;
+
+}
+
+.eventBox {
+    display: flex;
+    flex-direction: row;
+    margin: -20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.eventBox .error, .sli, .disruption {
+    margin: 10px;
+    width: 100px;
+    height: 80px;
+    border: 1px solid;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+.card .eventList{
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px;
+}
