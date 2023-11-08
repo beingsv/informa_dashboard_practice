@@ -1,12 +1,13 @@
 .card {
     width: fit-content;
-    height: auto;
+    height: 300px;
     background-color: aliceblue;
     border-radius: 10px;
     width: 30%;
     padding-left: 20px;
     padding-top: 0px;
     margin-top: 10px;
+    border: 1px solid;
 }
 
 .card h2 {
@@ -23,7 +24,9 @@
     
 }
 
-.eventBox .error, .sli, .disruption {
+.eventBox .error,
+.sli,
+.disruption {
     margin: 10px;
     width: 100px;
     height: 80px;
@@ -33,12 +36,36 @@
     font-size: 14px;
 }
 
+.eventBox .error {
+    background-color: rgb(254, 203, 203);
+}
 
-.card .eventList{
+.eventBox .disruption{
+    background-color: rgb(247, 238, 202);
+}
+
+.card .eventList {
     display: flex;
     font-size: 12px;
     justify-content: center;
     align-items: center;
     justify-content: space-between;
     padding: 18px;
+    flex-wrap: wrap;
 }
+
+.eventPair {
+    display: flex;
+    padding: 8px;
+    margin: 8px;
+    justify-content: space-between;    
+}
+.title {
+    font-weight: 500;
+    margin-right: 40px;
+    text-align: left;
+  }
+  
+  .value {
+    text-align: right;
+  }

@@ -12,9 +12,9 @@ function BrowserEvent({title, value}) {
 
 function BrowserEventList({title, value}) {
     return (
-        <div title={title} value={value}>
-            <h3>{title}</h3>
-            <p>{value}</p>
+        <div className='eventPair'>
+            <div className='title'>{title}</div>
+            <div className='value'>{value}</div>
         </div>
     )
 }
