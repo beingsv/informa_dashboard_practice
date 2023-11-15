@@ -3,20 +3,33 @@ import './allevent.css'
 
 function Stepfunction() {
 
-    function Middleware({title, value}) {
+    function Middleware({ title, value }) {
+        const titleStyle = {
+            fontSize: '12px',
+
+        }
+        const valueStyle = {
+            fontSize: '32px',
+            margin: '3px',
+        }
+
         return (
             <div title={title} value={value}>
-                <h3>{title}</h3>
-                <p>{value}</p>
+                <h3 style={titleStyle}>{title}</h3>
+                <p style={valueStyle}>{value}</p>
             </div>
         )
     }
+
+    function MiddlewareList({ title, value }) {
+        const titleStyle = {
+            color: '#F01010'
+        }
     
-    function MiddlewareList({title, value}) {
         return (
             <div className='eventPair'>
                 <div className='title'>{title}</div>
-                <div className='value'>{value}</div>
+                <div className='value' style={titleStyle}>{value}</div>
             </div>
         )
     }

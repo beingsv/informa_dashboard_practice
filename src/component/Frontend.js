@@ -11,8 +11,8 @@ function Frontend() {
     return (
         <div className='frontend-panel'>
             <div className='header'>
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-record-fill" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10z" />
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <circle cx="8" cy="8" r="7.5" fill="#24B3AB" fill-opacity="0.5" stroke="#70ADAC" />
                 </svg>
                 <p className='frontend-heading'>Front-end</p>
                 <div className='tags'>

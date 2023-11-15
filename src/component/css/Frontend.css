@@ -1,44 +1,51 @@
-.frontend-panel{
+.frontend-panel {
     margin-left: 5%;
     margin-right: 5%;
 
 }
-.frontend-panel .header{
+
+.frontend-panel .header {
     display: flex;
-    background-color: rgb(200, 249, 233);
+    background-color: #8ED6D4;
     width: 100%;
     align-items: center;
     height: 40px;
-    border-radius: 10px;    
-}
-.frontend-panel .header svg{
-    margin-left: 20px;
-    color: rgb(99, 254, 202);
+    border-radius: 10px;
 }
 
-.frontend-panel .header p.frontend-heading{
+.frontend-panel .header svg {
+    margin-left: 20px;
+}
+
+.frontend-panel .header p.frontend-heading {
     font-weight: 600;
     font-size: 18px;
     margin-left: 8px;
 }
 
-.frontend-panel .header .tags{
+.frontend-panel .header .tags {
     display: flex;
     margin-left: 8px;
 }
 
-.frontend-panel .header .tags p{
+.frontend-panel .header .tags p {
     margin-right: 10px;
     background-color: white;
     border-radius: 5px;
-    padding:  0 5px;
+    padding: 0 5px;
     font-size: 15px;
 }
 
-.frontend-panel .cards{
-    display: flex;
+.frontend-panel .cards {
+    /* display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 10px;
+    justify-content: space-between; */
+    display: flex;
+    padding-bottom: 0px;
+    flex-direction: row;
+    align-items: center;
+    flex: 1 0 0;
     justify-content: space-between;
 }

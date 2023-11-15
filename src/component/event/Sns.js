@@ -5,19 +5,32 @@ function Sns() {
 
 
   function Snss({ title, value }) {
+    const titleStyle = {
+      fontSize: '12px',
+    }
+    const valueStyle = {
+      fontSize: '32px',
+      margin: '3px',
+
+    }
+
     return (
       <div title={title} value={value}>
-        <h3>{title}</h3>
-        <p>{value}</p>
+        <h3 style={titleStyle}>{title}</h3>
+        <p style={valueStyle}>{value}</p>
       </div>
     )
   }
 
   function SnsList({ title, value }) {
+    const titleStyle = {
+      color: '#F01010'
+    }
+
     return (
       <div className='eventPair'>
         <div className='title'>{title}</div>
-        <div className='value'>{value}</div>
+        <div className='value' style={titleStyle}>{value}</div>
       </div>
     )
   }
@@ -34,8 +47,6 @@ function Sns() {
         <SnsList title={"Messages Published"} value={"2"} />
         <SnsList title={"Nofications Delivered"} value={"300"} />
         <SnsList title={"Notification Failed"} value={"125"} />
-        {/* <SnsList title={"Empty Receives"} value={"2ms"} />
-        <SnsList title={"Messages Deleted"} value={"2ms"} /> */}
       </div>
 
     </div>

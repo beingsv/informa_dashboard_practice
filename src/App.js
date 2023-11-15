@@ -1,6 +1,7 @@
 import Frontend from "./component/Frontend";
 import Incidentchart from "./component/Incidentchart";
 import Middleware from "./component/Middleware";
+import './App.css';
 function App() {
   return (
     <div className="App">
